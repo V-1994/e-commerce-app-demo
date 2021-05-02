@@ -1,0 +1,39 @@
+.container{
+    margin-top: 6rem;
+}
+.filtering, .main, .button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    flex-direction: column;
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.all, .men, .women, .electronics, .jewelery{
+    margin: 1rem;
+    border: 1px solid rgb(26, 25, 24);
+    background-color: rgb(196, 10, 10);
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.main, .button-section{
+    margin-top: 1rem;
+}
+.add-btn, .delete-btn{
+    border: none;
+    padding: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.add-btn{
+    background-color: indigo;
+    color: lightcyan;
+}
+.delete-btn{
+    background-color: lawngreen;
+}
